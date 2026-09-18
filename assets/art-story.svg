@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-label="Illustration of an event venue">
+  <rect width="520" height="420" fill="#f6f4f2"/>
+  <rect x="10" y="10" width="500" height="400" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- venue facade -->
+  <path d="M110 340 V170 C110 120 150 84 200 84 H320 C370 84 410 120 410 170 V340" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+  <path d="M130 340 V174 C130 132 162 104 200 104 H320 C358 104 390 132 390 174 V340" fill="none" stroke="#b82837" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <!-- door -->
+  <path d="M230 340 V250 C230 226 244 214 260 214 C276 214 290 226 290 250 V340" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <path d="M230 250 C230 226 244 214 260 214 C276 214 290 226 290 250" fill="none" stroke="#b82837" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <!-- windows -->
+  <rect x="150" y="160" width="34" height="46" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="336" y="160" width="34" height="46" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="167" cy="183" r="5" fill="#b82837"/>
+  <circle cx="353" cy="183" r="5" fill="#b82837"/>
+  <!-- string lights -->
+  <path d="M110 140 C160 168 200 148 260 172 C320 196 360 158 410 140" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <g fill="#b82837">
+    <circle cx="150" cy="152" r="4"/>
+    <circle cx="205" cy="158" r="4"/>
+    <circle cx="260" cy="172" r="4"/>
+    <circle cx="315" cy="178" r="4"/>
+    <circle cx="370" cy="152" r="4"/>
+  </g>
+  <!-- ground -->
+  <path d="M70 340 H450" stroke="#1a1a1a" stroke-width="3"/>
+  <path d="M140 362 H380" stroke="#b82837" stroke-width="1.5"/>
+</svg>

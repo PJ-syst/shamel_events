@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Shamel Events</title>
+  <meta name="description" content="Book a consultation with Shamel Events for your wedding, dinner, or celebration. We respond within one business day.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a class="brand" href="index.html" aria-label="Shamel Events — home">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="8" fill="#b82837"/>
+          <path d="M44 21c-3-4-8-6-12.5-6C25 15 20 19 20 25c0 12 24 8 24 19 0 5-5 9-11 9-5 0-9.5-2-12-6" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        Shamel <em>Events</em>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="primary-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" aria-current="page">Book Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero" aria-labelledby="contact-title">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+        <h1 id="contact-title">Tell us about your occasion</h1>
+        <p>Share a few details and we'll be in touch within one business day to arrange your consultation.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Contact form and details">
+      <div class="container split">
+
+        <div class="reveal">
+          <p class="eyebrow">Book a Consultation</p>
+          <h2 class="section-title">Start the conversation</h2>
+          <p>Consultations are free and come with no obligation. We'll talk dates, ideas, and what's possible within your budget.</p>
+
+          <form class="form-grid" id="contact-form" novalidate>
+            <div class="form-field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" autocomplete="tel">
+            </div>
+            <div class="form-field">
+              <label for="event-type">Event type</label>
+              <select id="event-type" name="event-type" required>
+                <option value="" selected>Select an event type</option>
+                <option value="wedding">Wedding</option>
+                <option value="dinner">Formal dinner</option>
+                <option value="birthday">Birthday party</option>
+                <option value="anniversary">Anniversary</option>
+                <option value="corporate">Corporate event</option>
+                <option value="other">Other celebration</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="event-date">Tentative date</label>
+              <input type="date" id="event-date" name="event-date">
+            </div>
+            <div class="form-field">
+              <label for="guests">Estimated guests</label>
+              <input type="number" id="guests" name="guests" placeholder="e.g. 120" min="2" max="5000">
+            </div>
+            <div class="form-field form-field-full">
+              <label for="message">About your event</label>
+              <textarea id="message" name="message" placeholder="Tell us about the occasion, the feeling you're after, and anything else that matters to you."></textarea>
+            </div>
+            <p class="form-note">We reply within one business day. Your details are only used to plan your consultation.</p>
+            <div class="form-field form-field-full">
+              <button class="btn btn-primary btn-block" type="submit">Send Enquiry</button>
+            </div>
+          </form>
+
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </div>
+
+        <aside class="reveal" aria-label="Contact details">
+          <div class="detail-list">
+            <div>
+              <h3>Studio</h3>
+              <p>12 Jasmine Courtyard<br>Downtown District<br>Open by appointment</p>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:hello@shamelevents.com">hello@shamelevents.com</a></p>
+            </div>
+            <div>
+              <h3>Phone</h3>
+              <p><a href="tel:+15550142635">+1 (555) 014-2635</a></p>
+            </div>
+            <div>
+              <h3>Hours</h3>
+              <p>Monday – Friday, 9:00 – 18:00<br>Saturday, 10:00 – 16:00<br>Sunday, by appointment</p>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top: 72px;">
+            <div class="card-body">
+              <h3>Prefer a call?</h3>
+              <p>Leave your number in the form and mention a good time to reach you — a planner will call instead of emailing.</p>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+              <rect width="64" height="64" rx="8" fill="#b82837"/>
+              <path d="M44 21c-3-4-8-6-12.5-6C25 15 20 19 20 25c0 12 24 8 24 19 0 5-5 9-11 9-5 0-9.5-2-12-6" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+            Shamel <em>Events</em>
+          </a>
+          <p>Full-service event management for weddings, formal dinners, and every celebration in between.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#weddings">Weddings</a></li>
+            <li><a href="services.html#dinners">Formal Dinners</a></li>
+            <li><a href="services.html#occasions">Private Events</a></li>
+            <li><a href="services.html#occasions">Corporate Events</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@shamelevents.com">hello@shamelevents.com</a></li>
+            <li><a href="tel:+15550142635">+1 (555) 014-2635</a></li>
+            <li><a href="contact.html">Book a consultation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Shamel Events. All rights reserved.</p>
+        <p>Designed with love, planned with precision.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
